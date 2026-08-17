@@ -1,31 +1,5 @@
 // ============================================================
 // sx1262_commands_test8D.h
-//
-// EoRa-S3-900TB
-// SX1262 LOW-LEVEL REPEATED CAD TEST - TEST 8D
-//
-// PURPOSE:
-//   Validate repeated SX1262 CAD operation against a known-good
-//   915 MHz LoRa WOR transmitter.
-//
-//   NO:
-//     RadioLib
-//     deep sleep
-//     EXT0
-//     RX duty cycle
-//
-// TEST PATH:
-//
-//   SX1262
-//      |
-//      +-- repeated CAD
-//              |
-//              +-- CAD_DONE
-//              |
-//              +-- CAD_DETECTED
-//              |
-//              +-- DIO1 / GPIO16
-//
 // ============================================================
 
 #pragma once
