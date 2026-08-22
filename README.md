@@ -25,7 +25,9 @@ This design is ideal for battery-powered sensors, remote monitors, and long-rang
 
 ### Hardware
 
-- **EoRa-S3-900TB** (ESP32-S3 low-power board with built-in SX1262)
+- **EoRa-S3-900TB** (ESP32-S3 low-power board with built-in SX1262)<br>
+[EoRa-S3-900TB Development Board](https://ebyteiot.com/products/ebyte-oem-odm-eora-s3-900tb-22dbm-7km-mini-low-power-and-long-distance-sx1262-rf-module-lora-module-915mhz)
+- **Two BME280 GY-BME280-3.3 Breakouts
 - **One jumper wire** (GPIO33 → GPIO16)
 
 ### Required Files (must be in the sketch folder)
